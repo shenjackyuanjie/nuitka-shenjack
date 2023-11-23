@@ -1,0 +1,87 @@
+[
+    {
+        "type": "file",
+        "name": "summary",
+        "label": "Nuitka 更新日志总览"
+    },
+    {
+        "type": "file",
+        "name": "2-0",
+        "label": "Nuitka 2.0 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-9",
+        "label": "Nuitka 1.9 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-8",
+        "label": "Nuitka 1.8 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-7",
+        "label": "Nuitka 1.7 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-6",
+        "label": "Nuitka 1.6 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-5",
+        "label": "Nuitka 1.5 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-4",
+        "label": "Nuitka 1.4 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-3",
+        "label": "Nuitka 1.3 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-2",
+        "label": "Nuitka 1.2 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-1",
+        "label": "Nuitka 1.1 版本"
+    },
+    {
+        "type": "file",
+        "name": "1-0",
+        "label": "Nuitka 1.0 版本"
+    },
+    {
+        "type": "file",
+        "name": "0-9",
+        "label": "Nuitka 0.9 版本"
+    },
+    {
+        "type": "file",
+        "name": "0-8",
+        "label": "Nuitka 0.8 版本"
+    },
+    {
+        "type": "file",
+        "name": "0-7",
+        "label": "Nuitka 0.7 版本"
+    },
+    {
+        "type": "file",
+        "name": "0-2",
+        "label": "Nuitka 0.2 版本"
+    },
+    {
+        "type": "file",
+        "name": "0-1-1",
+        "label": "Nuitka 0.1.1 版本"
+    }
+]

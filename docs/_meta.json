@@ -1,0 +1,12 @@
+[
+  {
+    "text": "入群说明",
+    "link": "main/join",
+    "activeMatch": "/join/"
+  },
+  {
+    "text": "更新日志",
+    "link": "main/update-log",
+    "activeMatch": "/update-log/"
+  }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "type": "file",
+        "name": "join",
+        "label": "入群说明"
+    },
+    {
+        "type": "file",
+        "name": "setuptools",
+        "label": "通过 setuptools 和 wheels 使用 Nuitka"
+    },
+    {
+        "type": "dir",
+        "name": "update-log",
+        "label": "Nuitka 更新日志镜像",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "help",
+        "label": "Nuitka --help 翻译"
+    },
+    {
+        "type": "dir",
+        "name": "lib-not-dr",
+        "label": "lib not dr 相关文档",
+        "collapsed": true,
+        "collapsible": true
+    }
+]
