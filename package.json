@@ -7,10 +7,9 @@
     "build": "rspress build",
     "preview": "rspress preview"
   },
-  "dependencies": {
-    "rspress": "^1.7.5"
-  },
   "devDependencies": {
-    "@types/node": "^18"
+    "rspress": "^1.7.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
   }
 }
