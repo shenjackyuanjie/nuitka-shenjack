@@ -80,10 +80,10 @@ lndl_nuitka . -y
 # run without confirmation
 lndl_nuitka . -n
 # do not run
-``` 
+```
 
 > 通过 `lib_not_dr.nuitka.reader` 模块使用
-> 
+>
 > Use with `lib_not_dr.nuitka.reader`
 
 ```python
@@ -126,6 +126,31 @@ subprocess.run(compiler.gen_subprocess_cmd())
 > 复杂示例
 
 ```python title="complex_nuitka.py"
+import sys
+import subprocess
+from pathlib import Path
+from lib_not_dr.nuitka.compile import CompilerHelper
+
+compiler = CompilerHelper(src_file = Path("main.py"), run_after_build=True)
+
+print(compiler)
+
+if '-y' in sys.argv or '--yes' in sys.argv:
+    do_run = True
+elif '-n' in sys.argv or '--no' in sys.argv:
+    do_run = False
+else: # do_run is None
+    while (do_run := input("compile? [y/n]").lower()) not in ["y", "n", "yes", "no"]:
+        pass
+        # 获取用户输入是否编译
+        # get user confirmation to compile or not
+    do_run = True if do_run[0] == "y" else False
+
+if do_run:
+    subprocess.run(compiler.gen_subprocess_cmd())
+```
+
+```python
 import sys
 import subprocess
 from pathlib import Path
