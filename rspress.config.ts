@@ -18,6 +18,13 @@ export default defineConfig({
     ],
   },
   outDir: 'local_build',
+  markdown: {
+    highlightLanguages: [
+      ['py', 'python'],
+      'python',
+      'toml',
+    ]
+  }
   // builderConfig: {
   //   output: {
   //     assetPrefix: "/nuitka/"
