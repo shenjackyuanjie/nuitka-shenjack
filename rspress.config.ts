@@ -22,6 +22,7 @@ export default defineConfig({
     highlightLanguages: [
       ['py', 'python'],
       'python',
+      ['cfg', 'ini'],
       'toml',
     ]
   }
