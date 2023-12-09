@@ -30,9 +30,10 @@ features:
 #   - title: Simpler I18n solution
 #     details: With the built-in I18n solution, you can easily provide multi-language support for documents or components.
 #     icon: 🌍🎨
-#   - title: Static site generation
-#     details: In production, it automatically builds into static HTML files, which can be easily deployed anywhere.
-#     icon: 🌈
+  - title: 安装编译器
+    details: 在 Windows 下 安装 Nuitka 需要的 Clang + MSVC
+    icon: 🌈
+    link: main/compiler
   - title: Nuitka --help 文档翻译
     details: 由 erduotong 翻译的 Nuitka --help 文档
     link: main/help

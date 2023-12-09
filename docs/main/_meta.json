@@ -10,6 +10,11 @@
         "label": "通过 setuptools 和 wheels 使用 Nuitka"
     },
     {
+        "type": "file",
+        "name": "compiler",
+        "label": "Windows 下 安装 Nuitka 需要的 Clang + MSVC"
+    },
+    {
         "type": "dir",
         "name": "update-log",
         "label": "Nuitka 更新日志镜像",

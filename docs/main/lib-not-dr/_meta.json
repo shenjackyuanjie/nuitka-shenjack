@@ -3,5 +3,10 @@
         "type": "file",
         "name": "readme",
         "label": "lndl is not a dr lib Readme"
+    },
+    {
+        "type": "dir",
+        "name": "change_logs",
+        "label": "lndl 更新日志"
     }
 ]
