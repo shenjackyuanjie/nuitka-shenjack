@@ -1,5 +1,9 @@
 # 通过 `setuptools` 和 `wheels` 使用 nuitka
 
+:::info
+你也可以使用 [lib-not-dr](/main/lib-not-dr) 来帮助你使用 Nuitka
+:::
+
 If you have a `setup.py`, `setup.cfg` or `pyproject.toml` driven creation of wheels for your software in place, putting Nuitka to use is extremely easy.
 
 Lets start with the most common `setuptools` approach, you can - having Nuitka installed of course, simply execute the target `bdist_nuitka` rather than the `bdist_wheel`. It takes all the options and allows you to specify some more, that are specific to Nuitka.
