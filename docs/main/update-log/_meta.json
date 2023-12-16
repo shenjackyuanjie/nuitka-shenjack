@@ -2,17 +2,12 @@
     {
         "type": "file",
         "name": "main",
-        "label": "Nuitka 更新日志"
-    },
-    {
-        "type": "file",
-        "name": "summary",
-        "label": "Nuitka 更新日志总览"
+        "label": "Nuitka 更新日志 总揽"
     },
     {
         "type": "file",
         "name": "2-0",
-        "label": "Nuitka 2.0 版本"
+        "label": "Nuitka 2.0 版本 (草稿)"
     },
     {
         "type": "file",

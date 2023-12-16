@@ -4,7 +4,7 @@
 >
 > 但我就是镜像了一份
 
-- [Nuitka 2.0 (占位符)](main/update-log/2-0.md)
+- [Nuitka 2.0 (草稿)](main/update-log/2-0.md)
 
 > 需要注意的是
 >

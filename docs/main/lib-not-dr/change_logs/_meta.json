@@ -1,11 +1,6 @@
 [
     {
         "type": "file",
-        "name": "readme",
-        "label": "lndl 更新日志索引"
-    },
-    {
-        "type": "file",
         "name": "0-4",
         "label": "lndl 0.4 更新日志 (草稿)"
     },

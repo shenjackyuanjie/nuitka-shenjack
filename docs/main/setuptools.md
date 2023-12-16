@@ -6,7 +6,11 @@
 
 If you have a `setup.py`, `setup.cfg` or `pyproject.toml` driven creation of wheels for your software in place, putting Nuitka to use is extremely easy.
 
+如果你有一个 `setup.py`, `setup.cfg` 或 `pyproject.toml` 驱动的软件创建的 `wheels`, 使用 Nuitka 非常简单的。
+
 Lets start with the most common `setuptools` approach, you can - having Nuitka installed of course, simply execute the target `bdist_nuitka` rather than the `bdist_wheel`. It takes all the options and allows you to specify some more, that are specific to Nuitka.
+
+让我们用最常见的 `setuptools` 的方式来说，你可以 - Nuitka 已经安装，只需执行 `bdist_nuitka` 目标，而不是 `bdist_wheel` ，。它接受所有的选项，并允许你为 Nuitka 添加更多的选项。
 
 ```python title="setup.py"
 # For setup.py if not you't use other build systems:
