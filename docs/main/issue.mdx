@@ -209,5 +209,50 @@ Before submitting an Issue, please review the
 
   通常你应该在代码中使用 `# nuitka-project: ` 选项, 同时你也可以直接提供命令行
 
+  > [Nuitka Options in the code](https://nuitka.net/doc/user-manual.html#nuitka-options-in-the-code)
+  
+> Avoid unnecessary options
+
+- 去除不必要的选项
+  
+  > Do not use `--onefile` if the issue also happens with `--standalone`. Minimize the use of options
+  > as far as you can, please. Do not disable outputs with `--quiet` and do not disable warnings.
+
+  不要使用 `--onefile` 如果这个问题也会发生在 `--standalone` 时
+  请尽量减少选项的使用，请。 不要禁用输出 `--quiet` 和禁用警告
+
+> Note if this is a regression
+
+- 如果这是一个问题
+  
+  > If it used to work in an earlier version of Nuitka, please note what you know about that. Since
+  > git bisect is a thing for which we do a lot of error to make it usable, this will help
+  > dramatically to isolate the issue.
+
+  如果你的问题出现在一个较早的 Nuitka 中, 请记住你了解的东西
+  因为 git bisect 是我们用来做错误的东西，这会让它变得可用，这可以帮助你解决问题
+
+> Consider getting commercial support
+
+- 考虑获取商业支持
+  
+  > [Nuitka commercial](https://nuitka.net/doc/commercial.html) offers subscriptions and priority
+  > support. This will accelerate your problem solution and helps to sustain Nuitka development. Also
+  > you then have a chance to provide source code of your project to us, which might simplify things,
+  > or pay for time to solve your issues in your environment.
+
+  [Nuitka 商业版](https://nuitka.net/doc/commercial.html) 提供了订阅和优先级支持
+  这会加快问题的解决，并帮助 Nuitka 开发。 还有你可以提供你项目的源代码给我们
+  这会简化问题，或者直接让我们在你的开发环境中解决问题
+
+## 下面是一些不建议的事项
+
+> Some things are not welcome, please consider it.
+
+> Do *not* post screenshots
+
+- 请 **不要** 在 Issue 中发布截图
+
+
 
 ## WIP

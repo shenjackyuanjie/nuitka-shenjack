@@ -2,7 +2,6 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
-    // 部署路径 cf pages root
     root: path.join(__dirname, 'docs'),
     title: 'nuitka 文档',
     description: 'nuitka qq 群的群文档',
@@ -15,6 +14,8 @@ export default defineConfig({
         socialLinks: [
             { icon: 'github', mode: 'link', content: 'https://github.com/nuitka/nuitka' },
         ],
+        lastUpdated: true,
+        lastUpdatedText: "最后更新时间",
     },
     outDir: 'local_build',
     markdown: {
