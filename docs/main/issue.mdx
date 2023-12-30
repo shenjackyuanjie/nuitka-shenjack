@@ -174,4 +174,40 @@ Before submitting an Issue, please review the
 
   > python -m pip freeze
 
+> Many times when you get an error from Nuitka, your setup may be special
+
+- 很多时候 Nuitka 报错是因为你的环境特殊
+  
+  > Then even a `print("hello world")` program will not work, please try that and report that error
+  > instead. We do not need a report that says "Tensorflow does not work" when nothing actually works
+  > for you. You ought to also read the User Manual and check that your setup is actually supported
+  > already.
+
+  所以即使是一个 `print("hello world")` 的程序也不能运行, 请尝试运行这个程序并且报告错误
+  当你的环境中什么都不能运行的时候, 我们不需要一个报告说 "Tensorflow 不能运行" 
+  对你来说,  你应该阅读 用户手册 并且检查你的环境是否被支持
+
+> Also supply a Short, Self Contained, Correct, Example
+
+- 同时 提供 简短、完善、正确的示例
+  
+  > That demonstrates the issue i.e a small piece of code which reproduces the issue and can be run
+  > with out any other (or as few as possible) external dependencies. Issues without this may will
+  > likely be rejected without much consideration. Often this can be as simple as importing a package,
+  > if this is a packaging issue, try that first.
+
+  也就是说 你需要提供一小段可以用于复现问题, 且没有额外依赖(或者仅有少数依赖)的代码
+  如果没有提供范例, 这个 Issue 大概率会被直接拒绝。 通常这个范例可以是一个简单的导入包的代码
+  如果这是一个打包问题, 请先尝试这个(?)
+
+> Provide in your issue the Nuitka options used
+
+- 提供你的 Issue 使用的 Nuitka 选项
+  
+  > Ideally use the `# nuitka-project:` options feature in the code, so options and example code go
+  > along. Alternatively state the command line.
+
+  通常你应该在代码中使用 `# nuitka-project: ` 选项, 同时你也可以直接提供命令行
+
+
 ## WIP
