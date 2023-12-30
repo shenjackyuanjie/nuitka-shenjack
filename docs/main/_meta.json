@@ -32,10 +32,8 @@
         "label": "Nuitka --help 翻译"
     },
     {
-        "type": "dir",
-        "name": "lib-not-dr",
+        "type": "custom-link",
         "label": "lib not dr 相关文档",
-        "collapsed": true,
-        "collapsible": true
+        "link": "https://dr.shenjack.top/main/lib-not-dr"
     }
 ]

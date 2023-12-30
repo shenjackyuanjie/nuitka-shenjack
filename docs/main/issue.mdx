@@ -2,9 +2,7 @@
 
 <details>
 
-<summary>
-英文原文
-</summary>
+<summary>英文原文</summary>
 
 Before submitting an Issue, please review the
 [Issue Guidelines](https://github.com/Nuitka/Nuitka/blob/develop/CONTRIBUTING.md#submitting-an-issue).
@@ -133,32 +131,47 @@ Before submitting an Issue, please review the
 
 ## 问题描述
 
+> If you want to post a problem/bug, to help us understand and resolve your issue please check that
+> you have provided at least the information below, and discard up to here:
+
 如果你想提交的是一个 问题 / bug, 为了帮助我们更好的理解并解决你的问题, 请检查以下内容
 并且在检查完之后 *删除* 这个指南
 
+> Nuitka version, full Python version, flavor, OS, etc. as output by *this exact* command.
+
 - Nuitka 版本, 完整的 Python 版本, 架构, 系统
   
-  请 *完整* 且 *不带修改的* 发送以下命令的输出
+  请 **完整** 且 **不带修改的** 发送以下命令的输出
   
   > python -m nuitka --version
 
-  如果你没有提供 *完整* 的输出, 你的 Issue 不能被解决, 并且被标记为 `invalid`
+  > If you are not providing the full output. The issue cannot be solved and will be considered
+  > `invalid`. The command outputs more than you think, and we are adding more all the time. We do not
+  > want to left guessing or trying things out to reproduce your issue.
+
+  如果你没有提供 **完整** 的输出, 你的 Issue 不能被解决, 并且被标记为 `invalid`
   这个命令输出的内容会比你想要的要多很多, 并且我们也在不断添加新的内容
   我们不想去 猜测你的环境 来复现问题
 
-- 你是如何安装 Nuitka 的
+> How did you install Nuitka and Python
+
+- 你是如何安装 Nuitka 和 Python 的
   
   你是否使用 pip, anaconda, deb, rpm, 从源码安装或者 git 来安装 Nuitka 到一个虚拟环境中
   (虚拟环境创建指南请参考 [Python标准库 venv 文档](https://docs.python.org/zh-cn/3/library/venv.html) )
 
   这很重要, 请一定要进行说明, 因为上面的命令暂时还不会输出虚拟环境相关的信息
 
+> The specific PyPI names and versions
+
 - 你所使用的第三方库的名称和版本
   
-  It should be taken from this output if there specific packages involved, e.g. `numpy`, you are
-  expected to shorten this to the relevant ones.
+  > It should be taken from this output if there specific packages involved, e.g. `numpy`, you are
+  > expected to shorten this to the relevant ones.
 
   这应该是你所使用的第三方库的名称和版本
   你应该把下面命令的输出截取出与打包相关的部分
 
   > python -m pip freeze
+
+## WIP
