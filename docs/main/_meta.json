@@ -6,6 +6,11 @@
     },
     {
         "type": "file",
+        "name": "issue",
+        "label": "Nuitka 发 issue 指南"
+    },
+    {
+        "type": "file",
         "name": "setuptools",
         "label": "通过 setuptools 和 wheels 使用 Nuitka"
     },
