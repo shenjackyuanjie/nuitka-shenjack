@@ -6,8 +6,18 @@
     },
     {
         "type": "file",
+        "name": "2-3",
+        "label": "Nuitka 2.3 版本"
+    },
+    {
+        "type": "file",
+        "name": "2-2",
+        "label": "Nuitka 2.2 版本"
+    },
+    {
+        "type": "file",
         "name": "2-1",
-        "label": "Nuitka 2.1 版本 (草稿)"
+        "label": "Nuitka 2.1 版本"
     },
     {
         "type": "file",

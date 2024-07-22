@@ -4,7 +4,13 @@
 >
 > 但我就是镜像了一份
 
-- [Nuitka 2.1 版本 (草稿)](main/update-log/2-1.md)
+<!-- - [Nuitka 2.4 版本](main/update-log/2-4.md) -->
+
+- [Nuitka 2.3 版本](main/update-log/2-3.md)
+
+- [Nuitka 2.2 版本](main/update-log/2-2.md)
+
+- [Nuitka 2.1 版本](main/update-log/2-1.md)
 
 - [Nuitka 2.0 版本](main/update-log/2-0.md)
 
@@ -40,6 +46,10 @@
 
 - [Nuitka 0.7 版本](main/update-log/0-7.md)
 
+中间的版本就没镜像了, 需要的话到群里叫我
+
 - [Nuitka 0.2 版本](main/update-log/0-2.md)
+
+中间的版本就没镜像了, 需要的话到群里叫我
 
 - [Nuitka 0.1.1 版本](main/update-log/0-1-1.md)
