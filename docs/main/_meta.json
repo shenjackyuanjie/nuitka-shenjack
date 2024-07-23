@@ -20,6 +20,11 @@
         "label": "Windows 下 安装 Nuitka 需要的 Clang + MSVC"
     },
     {
+        "type": "file",
+        "name": "onefile-path",
+        "label": "Nuitka onefile 打包路径问题"
+    },
+    {
         "type": "dir",
         "name": "update-log",
         "label": "Nuitka 更新日志镜像",
